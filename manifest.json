@@ -2,7 +2,7 @@
   "name": "adopt-teste",
   "vendor": "adoptbr",
   "version": "0.0.7-beta.0",
-  "title": "Adopt Teste",
+  "title": "Go Adopt",
   "description": "Uma ferramenta de consentimento que prioriza privacidade e usabilidade perante a LGPD.",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
