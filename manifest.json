@@ -35,7 +35,7 @@
       },
       "closeDisclaimer": {
         "title": "Fechar após o aceite",
-        "type": "string",
+        "type": "boolean",
         "default": "false"
       }
     }
