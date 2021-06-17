@@ -29,9 +29,24 @@
     "type": "object",
     "properties": {
       "gtmId": {
-        "title": "Website Code",
+        "title": "Website Code.",
         "description": "Insira o website code do seu site que pode ser encontrado no site da AdOpt, ou entre em contato",
         "type": "string"
+      },
+      "popupLayout": {
+        "title": "Pop up layout",
+        "type": "string",
+        "default": "top",
+        "enum": [
+          "top",
+          "bottomLeft",
+          "right"
+        ],
+        "enumNames": [
+          "Top",
+          "Bottom left",
+          "Right"
+        ]
       }
     }
   },
