@@ -1,9 +1,9 @@
 {
-  "name": "YOURAPPNAME",
-  "vendor": "vtex",
+  "name": "Adopt-Teste",
+  "vendor": "adoptbr",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "Adopt Teste",
+  "description": "Uma ferramenta de consentimento que prioriza privacidade e usabilidade perante a LGPD.",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -25,12 +25,12 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "Adopt-Teste",
     "type": "object",
     "properties": {
       "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+        "title": "Website Code",
+        "description": "Insira o website code do seu site que pode ser encontrado no site da AdOpt, ou entre em contato",
         "type": "string"
       }
     }
