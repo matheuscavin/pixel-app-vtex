@@ -28,7 +28,7 @@
     "title": "Adopt-Teste",
     "type": "object",
     "properties": {
-      "gtmId": {
+      "websiteCode": {
         "title": "Website Code.",
         "description": "Insira o website code do seu site que pode ser encontrado no site da AdOpt, ou entre em contato",
         "type": "string"
@@ -36,7 +36,7 @@
       "closeDisclaimer": {
         "title": "Fechar após o aceite",
         "type": "boolean",
-        "default": "false"
+        "default": false
       }
     }
   },
