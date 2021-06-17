@@ -33,20 +33,10 @@
         "description": "Insira o website code do seu site que pode ser encontrado no site da AdOpt, ou entre em contato",
         "type": "string"
       },
-      "popupLayout": {
-        "title": "Pop up layout",
+      "closeDisclaimer": {
+        "title": "Fechar após o aceite",
         "type": "string",
-        "default": "top",
-        "enum": [
-          "top",
-          "bottomLeft",
-          "right"
-        ],
-        "enumNames": [
-          "Top",
-          "Bottom left",
-          "Right"
-        ]
+        "default": "false"
       }
     }
   },
