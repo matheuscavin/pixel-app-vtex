@@ -1,7 +1,7 @@
 {
   "name": "adopt-teste",
   "vendor": "adoptbr",
-  "version": "0.0.9-beta.0",
+  "version": "0.0.10-beta.0",
   "title": "Go Adopt",
   "description": "Uma ferramenta de consentimento que prioriza privacidade e usabilidade perante a LGPD.",
   "billingOptions": {
