@@ -1,15 +1,6 @@
-<script>
-    (function() {
-      var appId = "{{settings.websiteCode}}";
-      if (!appId) {
-        console.error('Warning: No APP NAME ID is defined. Please configure it in the apps admin.');
-        return
-    } else {
-        console.log('Code is defined!');
-      }
-  
-      // Add script here
-    })()
+<script type="text/javascript">
+  (function() {
+    var tc = document.createElement("script"); tc.type = "text/javascript"; 
+    tc.src = "//tag.goadopt.io/injector.js?website_code={{settings.websiteCode}}";
+    })();
   </script>
-<meta name="adopt-website-id" content="{{settings.websiteCode}}" />
-<script src="//tag.goadopt.io/injector.js?website_code={{settings.websiteCode}}" class="adopt-injector"></script>
